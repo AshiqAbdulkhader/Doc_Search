@@ -11,8 +11,8 @@ class Item(BaseModel):
     query: str
 
 
-@app.post("/query/")
-async def query(item: Item):
+@app.post("/search/")
+async def search(item: Item):
     result = query(item.query)
     data = {
         'id': item.id,
