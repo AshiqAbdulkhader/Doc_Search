@@ -8,7 +8,6 @@ indexer = Executor.load_config(
 ranker = Executor.load_config(
     'DPRReaderRanker/config.yml', uses_metas={'workspace': './workspace'})
 
-
 with open("encoder.json", "r") as f:
     encoder_json = f.read()
 
