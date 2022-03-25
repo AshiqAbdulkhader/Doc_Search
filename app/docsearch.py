@@ -8,7 +8,7 @@ indexer = Executor.load_config(
 ranker = Executor.load_config(
     'DPRReaderRanker/config.yml', uses_metas={'workspace': './workspace'})
 
-with open("./encoder.json", "r") as f:
+with open("./data/tp_encoded.json", "r") as f:
     encoder_json = f.read()
 
 da = DocumentArray.from_json(encoder_json)

@@ -24453,7 +24453,7 @@
     "mime_type": null,
     "text": "= models.IntegerField()\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0def __str__(self):\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0return self.geeks_fieldAfter running makemigrations and migrate on Django and rendering above model, let us try to create an instance using string \u201cGfG is Best\u201c.You can see in the admin interface, one can not enter a string in an IntegerField. Similarly every field has its own validations. To know more about validations visit, Built-in Field Validations \u2013 Django ModelsMore on Django Models \u2013Change Object Display Name using __str__ function \u2013 Django Mode",
     "weight": null,
-    "uri": null,
+    "uri": null, 
     "tags": null,
     "offset": null,
     "location": null,
